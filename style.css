@@ -1,0 +1,119 @@
+/* global css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+.btn:hover{
+    background-color: grey;
+    border-radius: 10px;
+
+}
+.pink{
+    color: #FF42A5;
+}
+
+
+
+/* 
+nav bar css */ 
+nav{
+    height: 130px;
+    background: #FFF;
+}
+nav,nav div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+.nav-one >,.nav-two >,.nav-three >{
+    padding-right: 20px;
+    
+}
+.nav-one{
+    gap: 15px;
+}
+.nav-three{
+    gap: 5px;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.nav-one span,h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Work Sans";
+
+}
+
+/* banner */
+
+
+
+
+
+
+
+
+
+/* mobile responsive part */
+
+/* nav part */
+@media screen and (max-width:500px) {
+    nav{
+        height: 380px;
+        background: #fff;
+    }
+    nav{
+        display: grid;
+        grid-template-rows: repeat(1,fr);
+        gap: 0px;
+
+    }
+    nav div{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-one >,.nav-two >,.nav-three >{
+        padding-right: 0px;
+        
+    }
+    .nav-one{
+        margin: 0px;
+        padding: 0px;  
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 0px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        
+
+    }
+    .nav-one h1{
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav-two{
+        gap: 0px;
+    }
+    .nav-three{
+        flex-direction: row;
+        margin-top: 50px;
+        gap: 5px;
+        width: 262px;
+        height: 56px;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+    }
+    .nav-three h3{
+        font-size: 18px;
+    }
+    .nav-three img{
+        width: 33.916px;
+        height: 27.756px;
+    }
+    .btn:hover{
+        background-color: rgb(175, 171, 171);
+        border-radius: 5px;
+    
+    }
+    
+}
