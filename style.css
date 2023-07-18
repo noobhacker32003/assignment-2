@@ -8,6 +8,13 @@
 .pink{
     color: #FF42A5;
 }
+.gorib{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 
 
@@ -45,6 +52,60 @@ nav,nav div{
 }
 
 /* banner */
+.banner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+button a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+button{
+    background-color: #FF42A5;
+    border: none;
+    border-radius: 48px;
+    padding: 21px 40px;
+    margin-right: 20px;
+}
+.blue{
+    background: #4EC5F7;
+}
+#play{
+    color: #0B0223;
+    
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+.bgm{
+    width: 901px;
+    height: 700px;
+    background-image: url(images/Group\ 14.png);
+    background-size: auto;   
+}
+.pera{
+    margin-left: 200px;
+    
+}
+.goat{
+    font-family: "Work Sans";
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
 
 
 
@@ -115,5 +176,59 @@ nav,nav div{
         border-radius: 5px;
     
     }
-    
+    /* banner */
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner img{
+        height: 100%;
+        width: 100%;
+    }
+
+    }
+    .goat{
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 85px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-left: 5px;
+    }
+    #play{
+        color: #0B0223;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 40px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0px;
+        margin-top: 50px;
+    }
+    .gorib{
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 62px;
+
+    }
+    .bgm{
+        width: 425px;
+        height: 500px;
+        background-size: auto;  
+        margin-top: 50px;
+    }
+    .banner button{
+        position: relative;
+        left: 40px;
+        
+    }
+    .pera{
+        margin-left: 20px;
+    }
 }
