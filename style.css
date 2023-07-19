@@ -98,6 +98,9 @@ button{
     margin-left: 170px;
     
 }
+.pera {
+
+}
 .goat{
     font-family: "Work Sans";
     font-size: 95px;
@@ -324,6 +327,7 @@ footer{
     height: 636px;
     background: #0B0223;
     margin-top: 50px;
+    padding-top: 50px;
 }
 
 .foot-one{
@@ -333,9 +337,8 @@ footer{
     
 
 }
-.foot-one h1,img{
-    margin-top: 100px;
-}
+
+
 .fo-w{
     font-family: Work Sans;
     font-size: 45px;
