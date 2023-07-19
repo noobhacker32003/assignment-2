@@ -5,6 +5,9 @@
     border-radius: 10px;
 
 }
+*{
+    margin: 0px;
+}
 .pink{
     color: #FF42A5;
 }
@@ -147,6 +150,9 @@ button{
 
 .img-bonus img:hover{
     opacity: 40%;
+    filter: brightness(5%);
+    
+
 }
 
 
@@ -299,7 +305,7 @@ section div.horse-img{
     height: 80px;
     font-size: 15px;
     margin-bottom:30px ;
-    margin-left: 80px;
+    margin-left: 70px;
     padding-left: 20px;
     font-family: "Work Sans";
     font-size: 15px;
@@ -314,6 +320,95 @@ section div.horse-img{
 
 
 /* footer section */
+footer{
+    height: 636px;
+    background: #0B0223;
+    margin-top: 50px;
+}
+
+.foot-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.foot-one h1,img{
+    margin-top: 100px;
+}
+.fo-w{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+}
+.foot-one h1{
+    padding-left: 20px;
+
+}
+.list-div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.list-div ul li{
+    list-style: none;
+    color: #FFF;
+    margin-left: 20px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.foot-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.foot-icon img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.last-list{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-list li{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.copyright{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4dvh;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+
+
+
 
 
 
@@ -580,6 +675,23 @@ section div.horse-img{
             font-weight: 600;
             line-height: normal;
         }
+        .list-div ul li{
+            font-size: 18px;
+            margin: 10px;
+
+        }
+        .list-div ul{
+            flex-wrap: wrap;
+        }
+        .last-list{
+            flex-wrap: wrap;
+        }
+        .copyright h6{
+            flex-wrap: wrap;
+            width: 200px;
+
+        }
+
 
 
 
@@ -795,15 +907,17 @@ section div.horse-img{
         
         }
         .game-section div{
-            width:100px ;
+            width:120px ;
             margin: 0px;
             height: 40px;
             border: 1px solid #fff;
             margin-bottom: 20px;
+            gap: 2px;
+
         }
         .game-section div:hover{
     
-            width:100px ;
+            width:120px ;
             height: 40px;
             margin: 0px;
             border-radius: 25px;
@@ -835,6 +949,7 @@ section div.horse-img{
             font-weight: 600;
             line-height: normal;
         }
+
 
     
 }
