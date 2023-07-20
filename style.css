@@ -92,7 +92,7 @@ button{
     width: 901px;
     height: 700px;
     background-image: url(images/Group\ 14.png);
-    background-size: auto;   
+    background-size: 100%;   
 }
 .pera{
     margin-left: 170px;
@@ -536,8 +536,9 @@ footer{
     .bgm{
         width: 425px;
         height: 500px;
-        background-size: auto;  
+        background-size: 100%;  
         margin-top: 50px;
+        background-image:url(images/Group\ 14.png);
     }
     .banner button{
         position: relative;
@@ -809,6 +810,9 @@ footer{
         height: 500px;
         background-size: auto;  
         margin-top: 50px;
+        background-size: 100%;  
+        margin-top: 50px;
+        background-image:url(images/Group\ 14.png);
     }
     .banner button{
         position: relative;
