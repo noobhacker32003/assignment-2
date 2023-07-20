@@ -806,7 +806,7 @@ footer{
 
     }
     .bgm{
-        width: 425px;
+        width: 625px;
         height: 500px;
         background-size: auto;  
         margin-top: 50px;
@@ -819,6 +819,13 @@ footer{
         left: 40px;
         
     }
+    #pinki{
+        margin-left: 110px;
+    }
+    #just{
+        margin-left: 150px;
+    }
+
     .pera{
         margin-left: 20px;
     }
